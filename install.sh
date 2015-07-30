@@ -1,5 +1,5 @@
 #!/bin/sh
-PROJECTS=( "miq-F5" "miq-BlueCat" "miq-InfoBlox" "miq-Amazon" )
+PROJECTS=( "miq-F5" "miq-BlueCat" "miq-InfoBlox" "miq-Amazon" "miq-BMC" "miq-Chef" "miq-Citrix" "miq-HP-OperationsManager" "miq-HP-ServerAutomation" "miq-LDAP" "miq-MenAndMice" "miq-Networking" "miq-Oracle" "miq-VMware")
 
 install_rake_helper() {
 cd /tmp
