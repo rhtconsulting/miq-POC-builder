@@ -1,5 +1,28 @@
 #!/bin/sh
-PROJECTS=( "miq-BASE" "miq-F5" "miq-BlueCat" "miq-InfoBlox" "miq-Amazon" "miq-BMC" "miq-Chef" "miq-Citrix" "miq-HP-OperationsManager" "miq-HP-ServerAutomation" "miq-LDAP" "miq-MenAndMice" "miq-Networking" "miq-Oracle" "miq-VMware")
+PROJECTS=( \
+"miq-BASE" \
+"miq-F5" \
+"miq-BlueCat" \
+"miq-InfoBlox" \
+"miq-Amazon" \
+"miq-BMC" \
+"miq-Chef" \
+"miq-Citrix" \
+"miq-HP-OperationsManager" \
+"miq-HP-ServerAutomation" \
+"miq-LDAP" \
+"miq-MenAndMice" \
+"miq-Networking" \
+"miq-Oracle" \
+"miq-VMware" \
+"miq-NetApp" \
+"miq-ServiceNow" \
+"miq-RedHat-Satellite5" \
+"miq-RedHat-Satellite6" \
+"miq-RedHat-CloudForms" \
+"miq-RedHat-OpenStack" \
+"miq-RedHat-RHEV" \
+)
 
 install_rake_helper() {
 cd /tmp
